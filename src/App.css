@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container h2 {
+  font-size: 16px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Style the options if needed */
+.container option {
+  font-size: 16px;
+}
+
+.insert-data-container form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.insert-data-container h2 {
+  font-size: 16px;
+}
+
+.insert-data-container label {
+  display: block;
+}
+
+.insert-data-container input {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.insert-data-container button {
+  background-color: #4caf50;
   color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.insert-data-container button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Add some basic styling to the UpdateScore component */
+.update-score-container {
+  max-width: 400px;
+  margin: 0 auto;
 }
+
+.update-score-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.update-score-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.update-score-container button {
+  background-color: #337ab7;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.update-score-container button:hover {
+  background-color: #286090;
+}
+
+/* Add styling to the ViewData component */
+.view-data-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.view-data-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.view-data-container pre {
+  font-size: 16px;
+  white-space: pre-wrap; /* Preserve line breaks and wrap content */
+  padding: 15px;
+  background-color: #f8f9fa; /* Set a light background color for better readability */
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Add styling to the GetRank component */
+.get-rank-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.get-rank-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.get-rank-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.get-rank-container button {
+  background-color: #5bc0de;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.get-rank-container button:hover {
+  background-color: #46b8da;
+}
+
+.get-rank-container p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Add styling to the DeleteRecord component */
+.delete-record-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.delete-record-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.delete-record-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.delete-record-container button {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-record-container button:hover {
+  background-color: #c9302c;
+}
+
